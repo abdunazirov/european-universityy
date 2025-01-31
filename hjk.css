@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Epilogue;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.home {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px 0px 100px;
+}
+
+.text {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 100px 0px;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 417px;
+    margin-top: -30px;
+}
+
+nav a {
+    color: #0000007b;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.image img:first-child {
+    position: absolute;
+    top: 50px;
+    right: 23px;
+}
+
+.image img:nth-child(2) {
+    position: absolute;
+    top: 38px;
+    right: 0px;
+    
+}
+
+.image img:last-child {
+    position: absolute;
+    bottom: -10px;
+    left: 80px;
+}
+
+.sponsor {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 100px;
+}
+
+.about {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.about .box {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.box h3 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.box p {
+    font-weight: 400;
+    text-align: center;
+    width: 240px;
+}
+
+.art {
+    width: 100%;
+    height: 160vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.art h1 {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.all .box {
+    width: 25%;
+    height: 30%;
+}
+
+.all .box img {
+    width: 100%;
+}
+
+.all .box p {
+    text-align: start;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.all .box p {
+    font-size: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #2D2D2D;
+    color: #ffffff77;
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer h4{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+
+.footer ul a{
+    color: #ffffff80;
+    font-size: 20px;
+}
+.text{
+    width: 60%;
+    height: 100%;
+    margin-top: -80px;
+}
+.study{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+
+}
+.study .text1{
+    width: 50%;
+    height: 100%;
+    padding-top: 100px ;
+
+}
+.text1 h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.text1 p{
+    font-size: 32px ;
+    font-weight: 600;
+}
+.text1 p{
+    width: 40%;
+    line-height: 18px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 100px;
+    gap: 20px;
+
+}
+.input1{
+    width: 100%;
+    padding: 20px;
+    background-color: #DFDFDF;
+    border: none;
+
+}
+.input2{
+    width: 100%;
+    padding: 20px;
+    background-color: #DFDFDF;
+    border: none;
+
+}
+textarea{
+    width: 100%;
+    height: 30%;
+    background-color: #DFDFDF;
+    border: none;
+    padding: 25px;
+    color: #2D2D2D80;
+}
+.submit{
+    width: 30%;
+    padding: 25px;
+    color: #fff;
+    background-color: #000;
+}
+nav ul a:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding: 3px 0px;
+    transition: 2s;
+}
